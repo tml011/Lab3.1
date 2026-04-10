@@ -23,5 +23,10 @@ public:
 private:
     Ui::MainWindow *ui;
     MyStorage storage;
+
+protected:
+    void paintEvent(QPaintEvent *event) override;
+    void mousePressEvent(QMouseEvent *event) override;
+    void keyPressEvent(QKeyEvent *event) override;
 };
 #endif // MAINWINDOW_H

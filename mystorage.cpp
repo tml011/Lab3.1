@@ -29,3 +29,4 @@ void MyStorage:: deleteSelected(){
         }
     }
 }
+

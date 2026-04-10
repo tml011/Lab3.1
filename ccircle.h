@@ -14,7 +14,7 @@ public:
     CCircle(int x, int y);
 
     void draw(QPainter &painter);
-    bool isHit(QPoint &pos);
+    bool isHit(const QPoint &pos);
     void setSelected(bool s){selected = s;}
     bool isSelected()const{return selected;}
 };

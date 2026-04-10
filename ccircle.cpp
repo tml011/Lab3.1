@@ -12,7 +12,7 @@ void CCircle::draw(QPainter &painter){
     painter.drawEllipse(QPoint(x, y), radius, radius);
 }
 
-bool CCircle::isHit(QPoint &pos){
+bool CCircle::isHit(const QPoint &pos){
     int dx = pos.x() - x;
     int dy = pos.y() - y;
 
