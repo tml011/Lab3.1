@@ -22,5 +22,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    MyStorage storage;
 };
 #endif // MAINWINDOW_H
