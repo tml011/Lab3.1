@@ -16,5 +16,4 @@ public:
     CCircle* getObject(int index);
     void deleteSelected();
 };
-
 #endif // MYSTORAGE_H

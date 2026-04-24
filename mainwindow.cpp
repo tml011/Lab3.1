@@ -42,7 +42,7 @@ void MainWindow::mousePressEvent(QMouseEvent *event) {
                 }
 
                 obj->setSelected(true);
-                break;
+
             }
         }
 
